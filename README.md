@@ -84,3 +84,16 @@ Notes:
 - CPU mask construction is quadratic and capped at 8192 padded tokens for the
   visualizer; on CUDA, mask construction is compiled.
 - No timing claims — this is a correctness/policy reference.
+
+## Citing
+
+If you use scanline attention in your research, please cite:
+
+```bibtex
+@software{lodestone_scanline_attention,
+  author = {lodestone},
+  title = {scanline-attention: Global prefix + row strip attention with valid tile closure via FlexAttention},
+  url = {https://github.com/lodestone-rock/scanline-attention},
+  year = {2026}
+}
+```
